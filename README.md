@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Imperium
+## Adepta Sororitas
+  Rojo: #540b04
+  Blanco: #e1e4f2
+  Dorado: ##8d5e33
+  Negros y Grises
+## Adeptus Custodes
+Dorado.
+Rojo.
+Azul (detalles)
+## Adeptus Mechanicus
+Rojo
+Gris
+Metalico - Dorado
+Verde
+## Adeptus Titanicus
 
-## Getting Started
+## Astra Militarum
 
-First, run the development server:
+## Grey Knights
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Imperial Agents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Imperial Knights
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Space Marines
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Chaos
 
-## Learn More
+## Chaos Daemons
 
-To learn more about Next.js, take a look at the following resources:
+## Chaos Knights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Chaos Space Marines
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Death Guard
 
-## Deploy on Vercel
+## Emperor’s Children
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Thousand Sons
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## World Eaters
+
+# Xenos
+
+## Aeldari
+
+## Drukhari
+
+## Genestealer Cults
+
+## Leagues of Votann
+
+
+## Necrons
+
+
+
+## Orks
+
+
+
+## T’au Em
+pire
+
+
+## Tyranid
+s
