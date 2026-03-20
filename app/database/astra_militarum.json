@@ -1,0 +1,386 @@
+{
+  "name": "Necrons",
+  "army_rules": {
+    "name": "Reanimation Protocols",
+    "description": "Si tu armada es de NECRONS, al final de tu COMMAND PHASE, cada unidad de tu ejército con esta habilidad activa sus REANIMATION PROTOCOLS y reanima D3 WOUNDS. Cada vez que esto sucede: si la unidad contiene uno o más modelos con menos heridas que su número inicial, selecciona uno de esos modelos; ese modelo recupera una herida perdida. Si todos los modelos de la unidad tienen su número inicial de heridas, pero la unidad no está en su Fuerza Inicial, un modelo destruido regresa a la unidad con una herida restante."
+  },
+  "detachment_rules": [
+    {
+      "detachments": [
+        {
+          "name": "Combined Arms",
+          "description": "BORN SOLDIERS: Cada vez que una miniatura en una unidad REGIMENT realice un ataque RANGED contra una unidad visible (excluyendo MONSTERS y VEHICLES), dicho ataque tiene la habilidad [LETHAL HITS]. Cada vez que una miniatura en una unidad SQUADRON realice un ataque RANGED contra una unidad MONSTER o VEHICLE visible, dicho ataque tiene la habilidad [LETHAL HITS][cite: 1].",
+          "stratagems": [
+            {
+              "name": "COORDINATED ACTION",
+              "cost": "1CP",
+              "when": "Inicio de cualquier PHASE[cite: 1].",
+              "target": "Una unidad REGIMENT y una unidad SQUADRON de tu ejército a menos de 6\" y visibles entre sí[cite: 1].",
+              "effect": "Hasta el final de la PHASE, las ORDERS que afecten a una de las unidades afectan también a la otra, y viceversa[cite: 1]."
+            },
+            {
+              "name": "REINFORCEMENTS!",
+              "cost": "2CP",
+              "when": "Cualquier PHASE[cite: 1].",
+              "target": "Una unidad INFANTRY REGIMENT de tu ejército que acaba de ser destruida[cite: 1].",
+              "effect": "Añade una unidad nueva idéntica a la destruida a tu ejército en STRATEGIC RESERVES, con su STARTING STRENGTH y todas sus heridas[cite: 1]."
+            },
+            {
+              "name": "STALWART PROTECTOR",
+              "cost": "1CP",
+              "when": "La SHOOTING PHASE de tu oponente, justo después de que una unidad enemiga seleccione objetivos[cite: 1].",
+              "target": "Una unidad ASTRA MILITARUM VEHICLE de tu ejército[cite: 1].",
+              "effect": "Hasta el final de la PHASE, cada vez que un ataque RANGED se asigne a una miniatura INFANTRY, si esta no es totalmente visible para el atacante debido a tu VEHICLE, la miniatura obtiene BENEFIT OF COVER contra ese ataque[cite: 1]."
+            }
+          ]
+        },
+        {
+          "name": "Siege Regiment",
+          "description": "ARTILLERY SUPPORT: Al inicio del BATTLE ROUND, selecciona un tipo de apoyo: CREEPING BARRAGE, INCENDIARY BOMBARDMENT o SMOKE SHELLS. El máximo de unidades afectadas (2/3/4) depende del tamaño de la batalla[cite: 1].",
+          "stratagems": [
+            {
+              "name": "TRENCH FIGHTERS",
+              "cost": "1CP",
+              "when": "FIGHT PHASE, justo después de que el enemigo seleccione objetivos[cite: 1].",
+              "target": "Una unidad ASTRA MILITARUM INFANTRY que sea objetivo de ataques[cite: 1].",
+              "effect": "Hasta el final de la PHASE, si una miniatura es destruida sin haber combatido, tira un D6 (suma 2 si es REGIMENT). Con 4+, la miniatura combate antes de ser retirada[cite: 1]."
+            },
+            {
+              "name": "MINEFIELD",
+              "cost": "1CP",
+              "when": "Inicio de la CHARGE PHASE de tu oponente[cite: 1].",
+              "target": "Una unidad PLATOON de tu ejército[cite: 1].",
+              "effect": "Hasta el final de la PHASE, cada vez que un enemigo termine un CHARGE MOVE en ENGAGEMENT RANGE de tu unidad, tira un D6 por cada miniatura enemiga: con cada 5+, el enemigo sufre 1 MORTAL WOUND (máximo 6)[cite: 1]."
+            },
+            {
+              "name": "CALLOUS SACRIFICE",
+              "cost": "1CP",
+              "when": "Tu SHOOTING PHASE[cite: 1].",
+              "target": "Una unidad PLATOON propia en ENGAGEMENT RANGE de enemigos[cite: 1].",
+              "effect": "Puedes disparar a enemigos trabados con tu unidad. Si un enemigo pierde una herida, tira D6: con 4+, una miniatura de tu unidad es destruida tras los ataques[cite: 1]."
+            }
+          ]
+        },
+        {
+          "name": "Mechanised Assault",
+          "description": "ARMOURED FIST: Cada vez que una miniatura realice un ataque RANGED en el turno en que desembarcó de un TRANSPORT, añade 1 a la WOUND ROLL[cite: 1].",
+          "stratagems": [
+            {
+              "name": "HASTY EXTRACTION",
+              "cost": "1CP",
+              "when": "CHARGE PHASE enemiga[cite: 1].",
+              "target": "Una unidad INFANTRY seleccionada como objetivo de carga[cite: 1].",
+              "effect": "Si cada miniatura de tu unidad está a 3\" de un TRANSPORT, puede embarcar para evitar la carga[cite: 1]."
+            },
+            {
+              "name": "MOVE OUT",
+              "cost": "1CP",
+              "when": "Final del turno del oponente[cite: 1].",
+              "target": "Una unidad ASTRA MILITARUM[cite: 1].",
+              "effect": "Si cada miniatura de tu unidad está a 3\" de un TRANSPORT, puede embarcar[cite: 1]."
+            }
+          ]
+        },
+        {
+          "name": "Hammer of the Emperor",
+          "description": "IRON TREAD: Las unidades SQUADRON que hacen ADVANCE suman 6\" a su MOVE. Pueden mover dentro de ENGAGEMENT RANGE de miniaturas enemigas pero no terminar ahí[cite: 1].",
+          "stratagems": [
+            {
+              "name": "FINAL HOUR",
+              "cost": "1CP",
+              "when": "Tu COMMAND PHASE[cite: 1].",
+              "target": "Una unidad SQUADRON que esté BELOW HALF-STRENGTH[cite: 1].",
+              "effect": "Cada vez que una miniatura de tu unidad ataque, puedes ignorar modificadores a su BALLISTIC SKILL y a la HIT ROLL[cite: 1]."
+            },
+            {
+              "name": "FURIOUS CANNONADE",
+              "cost": "1CP",
+              "when": "Tu SHOOTING PHASE[cite: 1].",
+              "target": "Una unidad SQUADRON[cite: 1].",
+              "effect": "Cada vez que una miniatura de tu unidad ataque a un objetivo a menos de 12\", mejora el AP en 1[cite: 1]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detachments": [
+        {
+          "name": "Mechanised Assault",
+          "description": "ARMOURED FIST: Cada vez que una miniatura ASTRA MILITARUM de tu ejército realice un ataque RANGED en un turno en el que desembarcó de un TRANSPORT, añade 1 a la WOUND ROLL.",
+          "stratagems": [
+            {
+              "name": "VOX-RELAY",
+              "subname": "Mechanised Assault – Wargear Stratagem",
+              "cost": "1CP",
+              "when": "Tu COMMAND PHASE.",
+              "target": "Una unidad INFANTRY OFFICER de tu ejército embarcada en un TRANSPORT.",
+              "effect": "Hasta el final de la PHASE, tu unidad puede dar ORDERS aunque no esté en el campo de batalla, y puede dar ORDERS a unidades ASTRA MILITARUM TRANSPORT (excluyendo unidades TITANIC) sin importar la distancia entre ellas."
+            },
+            {
+              "name": "RAPID DISPERSAL",
+              "subname": "Mechanised Assault – Strategic Ploy Stratagem",
+              "cost": "1CP",
+              "when": "Tu MOVEMENT PHASE.",
+              "target": "Una unidad ASTRA MILITARUM INFANTRY que haya desembarcado de un TRANSPORT en esta PHASE.",
+              "effect": "Tu unidad INFANTRY puede realizar un NORMAL MOVE de hasta D6\"."
+            },
+            {
+              "name": "CLEAR AND SECURE",
+              "subname": "Mechanised Assault – Battle Tactic Stratagem",
+              "cost": "1CP",
+              "when": "Tu SHOOTING PHASE.",
+              "target": "Una unidad ASTRA MILITARUM que haya desembarcado de un TRANSPORT este turno y no haya sido seleccionada para disparar.",
+              "effect": "Hasta el final de la PHASE, cada vez que una miniatura de tu unidad ataque a un objetivo dentro del rango de un OBJECTIVE MARKER, puedes RE-ROLL la HIT ROLL y la WOUND ROLL."
+            },
+            {
+              "name": "SWIFT INTERCEPTION",
+              "subname": "Mechanised Assault – Battle Tactic Stratagem",
+              "cost": "1CP",
+              "when": "La MOVEMENT PHASE de tu oponente, justo después de que una unidad enemiga termine un NORMAL, ADVANCE o FALL BACK MOVE.",
+              "target": "Una unidad TRANSPORT (excluyendo AIRCRAFT y TITANIC) que no esté en ENGAGEMENT RANGE y esté a 9\" o menos del enemigo que movió.",
+              "effect": "Tu TRANSPORT puede realizar un NORMAL MOVE de hasta 6\"."
+            },
+            {
+              "name": "HASTY EXTRACTION",
+              "subname": "Mechanised Assault – Battle Tactic Stratagem",
+              "cost": "1CP",
+              "when": "La CHARGE PHASE de tu oponente, después de seleccionar objetivos pero antes del movimiento de carga.",
+              "target": "Una unidad ASTRA MILITARUM INFANTRY seleccionada como objetivo de esa carga.",
+              "effect": "Si tu unidad no está en ENGAGEMENT RANGE y cada miniatura está a 3\" o menos de un ASTRA MILITARUM TRANSPORT aliado, puede embarcar en dicho TRANSPORT."
+            },
+            {
+              "name": "MOVE OUT",
+              "subname": "Mechanised Assault – Strategic Ploy Stratagem",
+              "cost": "1CP",
+              "when": "Final del turno de tu oponente.",
+              "target": "Una unidad ASTRA MILITARUM de tu ejército.",
+              "effect": "Si tu unidad no está en ENGAGEMENT RANGE y cada miniatura está a 3\" o menos de un ASTRA MILITARUM TRANSPORT aliado, puede embarcar en dicho TRANSPORT."
+            }
+          ]
+        },
+        {
+          "name": "Hammer of the Emperor",
+          "description": "IRON TREAD: Cada vez que una unidad SQUADRON de tu ejército haga ADVANCE, no lances el dado; añade 6\" a la característica de MOVE de las miniaturas de esa unidad. Durante ese movimiento, la unidad puede pasar por ENGAGEMENT RANGE de miniaturas enemigas pero no terminar su movimiento allí.",
+          "stratagems": [
+            {
+              "name": "FINAL HOUR",
+              "subname": "Hammer of the Emperor – Epic Deed Stratagem",
+              "cost": "1CP",
+              "when": "Tu COMMAND PHASE.",
+              "target": "Una unidad SQUADRON (excluyendo OFFICERS) que esté BELOW HALF-STRENGTH.",
+              "effect": "Hasta el final del BATTLE ROUND, las armas RANGED de las miniaturas de la unidad (excluyendo [ONE SHOT]) ganan [HAZARDOUS]. Cada vez que una miniatura ataque, puedes ignorar cualquier modificador a su BALLISTIC SKILL y a la HIT ROLL."
+            },
+            {
+              "name": "BLAZING ADVANCE",
+              "subname": "Hammer of the Emperor – Battle Tactic Stratagem",
+              "cost": "1CP",
+              "when": "Tu MOVEMENT PHASE, justo después de que una unidad SQUADRON haga ADVANCE.",
+              "target": "Esa unidad SQUADRON.",
+              "effect": "Hasta el final del turno, tu unidad es elegible para disparar (SHOOT) aunque haya avanzado (ADVANCED)."
+            },
+            {
+              "name": "TACTICAL WITHDRAWAL",
+              "subname": "Hammer of the Emperor – Strategic Ploy Stratagem",
+              "cost": "1CP",
+              "when": "Tu MOVEMENT PHASE, justo después de que una unidad SQUADRON haga FALL BACK.",
+              "target": "Esa unidad SQUADRON.",
+              "effect": "Hasta el final del turno, tu unidad es elegible para disparar (SHOOT) aunque se haya retirado (FELL BACK)."
+            },
+            {
+              "name": "CRASH THROUGH",
+              "subname": "Hammer of the Emperor – Strategic Ploy Stratagem",
+              "cost": "1CP",
+              "when": "Tu MOVEMENT PHASE o CHARGE PHASE.",
+              "target": "Una unidad ASTRA MILITARUM VEHICLE que no haya sido seleccionada para mover o cargar.",
+              "effect": "Hasta el final de la PHASE, cada vez que la unidad haga un NORMAL, ADVANCE o CHARGE MOVE, puede mover horizontalmente a través de TERRAIN FEATURES como si no estuvieran allí."
+            },
+            {
+              "name": "FURIOUS CANNONADE",
+              "subname": "Hammer of the Emperor – Battle Tactic Stratagem",
+              "cost": "1CP",
+              "when": "Tu SHOOTING PHASE.",
+              "target": "Una unidad SQUADRON que no haya sido seleccionada para disparar.",
+              "effect": "Hasta el final de la PHASE, cada vez que una miniatura de la unidad ataque a un objetivo a 12\" o menos, mejora el ARMOUR PENETRATION (AP) del ataque en 1."
+            },
+            {
+              "name": "ABLATIVE PLATING",
+              "subname": "Hammer of the Emperor – Wargear Stratagem",
+              "cost": "2CP",
+              "when": "La SHOOTING PHASE de tu oponente, justo después de que una unidad enemiga seleccione objetivos.",
+              "target": "Una unidad ASTRA MILITARUM VEHICLE seleccionada como objetivo de ataques.",
+              "effect": "Hasta el final de la PHASE, cada vez que se asigne un ataque a tu unidad, resta 1 de la característica de DAMAGE de ese ataque."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "detachments": [
+        {
+          "name": "Recon Element",
+          "description": "MASTERS OF CAMOUFLAGE: Las miniaturas ASTRA MILITARUM WALKER y REGIMENT de tu ejército tienen BENEFIT OF COVER. Mientras una miniatura tenga BENEFIT OF COVER por cualquier otra razón, mejora su característica de SAVE en 1 (hasta un máximo de 3+).",
+          "stratagems": [
+            {
+              "name": "CRACK SHOTS",
+              "subname": "Recon Element – Battle Tactic Stratagem",
+              "cost": "1CP",
+              "when": "Tu SHOOTING PHASE.",
+              "target": "Una unidad PLATOON de tu ejército que no haya sido seleccionada para disparar en esta PHASE.",
+              "effect": "Hasta el final de la PHASE, las armas RANGED equipadas por las miniaturas de tu unidad tienen la habilidad [PRECISION]."
+            },
+            {
+              "name": "DRAW THEM OUT",
+              "subname": "Recon Element – Strategic Ploy Stratagem",
+              "cost": "1CP",
+              "when": "La MOVEMENT PHASE de tu oponente, justo después de que una unidad enemiga termine un NORMAL, ADVANCE o FALL BACK MOVE.",
+              "target": "Una unidad PLATOON de tu ejército a 9\" o menos del enemigo y que no esté en ENGAGEMENT RANGE.",
+              "effect": "Tu unidad puede realizar un NORMAL MOVE de hasta 6\"."
+            },
+            {
+              "name": "SCRAMBLE FIELD",
+              "subname": "Recon Element – Wargear Stratagem",
+              "cost": "1CP",
+              "when": "Inicio del paso de REINFORCEMENTS de tu oponente.",
+              "target": "Una unidad ASTRA MILITARUM INFANTRY de tu ejército.",
+              "effect": "Hasta el final de la PHASE, las unidades enemigas que se desplieguen como REINFORCEMENTS no pueden colocarse a menos de 12\" de tu unidad."
+            },
+            {
+              "name": "COURAGEOUS DIVERSION",
+              "subname": "Recon Element – Strategic Ploy Stratagem",
+              "cost": "1CP",
+              "when": "Inicio de la SHOOTING PHASE de tu oponente.",
+              "target": "Una unidad ASTRA MILITARUM INFANTRY o ASTRA MILITARUM MOUNTED de tu ejército.",
+              "effect": "Hasta el final de la PHASE, tu unidad tiene la habilidad FEEL NO PAIN 6+. Además, cada vez que una miniatura enemiga ataque, si tu unidad es el objetivo elegible más cercano, resta 1 de la HIT ROLL."
+            },
+            {
+              "name": "TANGLEFOOT GRENADES",
+              "subname": "Recon Element – Wargear Stratagem",
+              "cost": "1CP",
+              "when": "Inicio de la CHARGE PHASE de tu oponente.",
+              "target": "Una unidad ASTRA MILITARUM GRENADES de tu ejército.",
+              "effect": "Hasta el final de la PHASE, cada vez que una unidad enemiga seleccione a tu unidad como objetivo de una carga, resta 2 de la CHARGE ROLL."
+            },
+            {
+              "name": "SCOUTING OUTRIDERS",
+              "subname": "Hammer of the Emperor – Battle Tactic Stratagem",
+              "cost": "1CP",
+              "when": "Final del turno de tu oponente.",
+              "target": "Una unidad ASTRA MILITARUM MOUNTED o ASTRA MILITARUM WALKER que esté totalmente a 10\" o menos de cualquier borde del campo y fuera de ENGAGEMENT RANGE.",
+              "effect": "Retira tu unidad del campo de batalla y colócala en STRATEGIC RESERVES."
+            }
+          ]
+        },
+        {
+          "name": "Bridgehead Strike",
+          "description": "ONLY THE BEST / FIRE ZONE PURGE: Cada vez que una miniatura ASTRA MILITARUM INFANTRY ataque, RE-ROLL HIT ROLLS de 1. Además, cada vez que una miniatura MILITARUM TEMPESTUS ataque en el turno en que se desplegó desde RESERVES o desembarcó de un TRANSPORT, añade 1 a la HIT ROLL. (Si un OFFICER es WARLORD, las unidades SCIONS son BATTLELINE y ganan +1 OC si no están Battle-shocked).",
+          "stratagems": [
+            {
+              "name": "BELLICOSA DROP",
+              "subname": "Bridgehead Strike – Battle Tactic Stratagem",
+              "cost": "1CP",
+              "when": "Paso de REINFORCEMENTS de tu MOVEMENT PHASE.",
+              "target": "Una unidad ASTRA MILITARUM INFANTRY en RESERVES con la habilidad DEEP STRIKE.",
+              "effect": "Al desplegarse con DEEP STRIKE, puede colocarse a más de 6\" horizontalmente de unidades enemigas.",
+              "restrictions": "Hasta el final del turno, la unidad no es elegible para declarar carga (DECLARE A CHARGE)."
+            },
+            {
+              "name": "FIRING HOT",
+              "subname": "Bridgehead Strike – Battle Tactic Stratagem",
+              "cost": "2CP",
+              "when": "Tu SHOOTING PHASE.",
+              "target": "Una unidad MILITARUM TEMPESTUS o KASRKIN que no haya sido seleccionada para disparar.",
+              "effect": "Hasta el final de la PHASE, al disparar a enemigos a 12\" o menos, mejora en 1 la STRENGTH y el ARMOUR PENETRATION (AP) de todas las variantes de armas Hot-shot de la unidad."
+            },
+            {
+              "name": "FIRE AND RELOCATE",
+              "subname": "Bridgehead Strike – Strategic Ploy Stratagem",
+              "cost": "1CP",
+              "when": "Tu SHOOTING PHASE.",
+              "target": "Una unidad ASTRA MILITARUM (excluyendo TITANIC).",
+              "effect": "Hasta el final de la PHASE, tu unidad es elegible para disparar (SHOOT) aunque haya avanzado (ADVANCED)."
+            },
+            {
+              "name": "SERVO‑DESIGNATORS",
+              "subname": "Bridgehead Strike – Strategic Ploy Stratagem",
+              "cost": "1CP",
+              "when": "Tu SHOOTING PHASE, justo después de que una unidad ASTRA MILITARUM INFANTRY haya disparado.",
+              "target": "Esa unidad INFANTRY.",
+              "effect": "Selecciona una unidad enemiga impactada. Hasta el final de la PHASE, ese enemigo no puede tener BENEFIT OF COVER."
+            },
+            {
+              "name": "AERIAL EXTRACTION",
+              "subname": "Bridgehead Strike – Epic Deed Stratagem",
+              "cost": "1CP",
+              "when": "Final de la FIGHT PHASE de tu oponente.",
+              "target": "Una unidad ASTRA MILITARUM fuera de ENGAGEMENT RANGE (si todas sus miniaturas tienen DEEP STRIKE) o una unidad VALKYRIE fuera de ENGAGEMENT RANGE.",
+              "effect": "Retira la unidad del campo y colócala en STRATEGIC RESERVES."
+            },
+            {
+              "name": "ON MY POSITION",
+              "subname": "Bridgehead Strike – Epic Deed Stratagem",
+              "cost": "1CP",
+              "when": "Final de la FIGHT PHASE de tu oponente.",
+              "target": "Una unidad REGIMENT INFANTRY en ENGAGEMENT RANGE de enemigos.",
+              "effect": "Tira un D6 por cada enemigo en ENGAGEMENT RANGE: con 2+, sufre D6 MORTAL WOUNDS. Luego, tu unidad sufre 3D3 MORTAL WOUNDS."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grizzled Company",
+      "description": "RUTHLESS DISCIPLINE: Añade 1 al número de ORDERS que cada miniatura ASTRA MILITARUM OFFICER de tu ejército puede dar. Mientras una unidad ASTRA MILITARUM esté afectada por una ORDER, cada vez que una miniatura de esa unidad realice un ataque, RE-ROLL HIT ROLLS de 1.",
+      "stratagems": [
+        {
+          "name": "SNAP TO IT",
+          "subname": "Grizzled Company – Stratagem",
+          "cost": "1CP",
+          "when": "Inicio de cualquier PHASE.",
+          "target": "Una unidad ASTRA MILITARUM OFFICER de tu ejército.",
+          "effect": "El OFFICER de la unidad puede dar 1 ORDER como si fuera tu COMMAND PHASE."
+        },
+        {
+          "name": "NO RETREAT!",
+          "subname": "Grizzled Company – Stratagem",
+          "cost": "1CP",
+          "when": "Tu COMMAND PHASE.",
+          "target": "Una unidad ASTRA MILITARUM afectada por la ORDER 'Duty and Honour!'.",
+          "effect": "Si tu unidad está en rango de un OBJECTIVE MARKER que controlas, dicho marcador permanece bajo tu control aunque no tengas miniaturas en rango, hasta que el oponente lo controle al inicio o final de una PHASE."
+        },
+        {
+          "name": "VETERAN SHARPSHOOTERS",
+          "subname": "Grizzled Company – Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE.",
+          "target": "Una unidad ASTRA MILITARUM que no haya sido seleccionada para disparar en esta PHASE.",
+          "effect": "Hasta el final de la PHASE, las armas RANGED de las miniaturas de tu unidad tienen la habilidad [IGNORES COVER]."
+        },
+        {
+          "name": "PURGING FIRE",
+          "subname": "Grizzled Company – Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE.",
+          "target": "Una unidad ASTRA MILITARUM afectada por una ORDER que no haya sido seleccionada para disparar.",
+          "effect": "Si tu unidad está en rango de un OBJECTIVE MARKER, hasta el final de la PHASE las armas RANGED de las miniaturas de la unidad tienen la habilidad [LETHAL HITS]."
+        },
+        {
+          "name": "MORDIAN MINUTE",
+          "subname": "Grizzled Company – Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE.",
+          "target": "Una unidad ASTRA MILITARUM INFANTRY afectada por la ORDER 'First Rank, Fire! Second Rank, Fire!'.",
+          "effect": "Hasta el final de la PHASE, cada vez que una miniatura de tu unidad realice un ataque, mejora la característica de STRENGTH de ese ataque en 1."
+        },
+        {
+          "name": "ADDITIONAL ARMOUR",
+          "subname": "Grizzled Company – Stratagem",
+          "cost": "1CP",
+          "when": "La SHOOTING PHASE de tu oponente, justo después de que una unidad enemiga seleccione objetivos.",
+          "target": "Una unidad ASTRA MILITARUM seleccionada como objetivo de uno o más ataques.",
+          "effect": "Hasta que el atacante termine sus ataques, cada vez que un ataque apunte a tu unidad, empeora la característica de ARMOUR PENETRATION (AP) de ese ataque en 1."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "name",
+  "army_rules": {
+    "name": "army_rules_name",
+    "description": "army_rules_description"
+  },
+  "detachment_rules": [
+    {
+      "detachments": [
+        {
+          "name": "detachment_name",
+          "description": "detachment_description",
+          "stratagems": [
+            {
+              "name": "stratagem_name",
+              "cost": "stratagem_cost",
+              "when": "stratagem_when",
+              "target": "stratagem_target",
+              "effect": "stratagem_effect"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

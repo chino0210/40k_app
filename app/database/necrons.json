@@ -1,0 +1,500 @@
+{
+  "name": "Necrons",
+  "army_rules": {
+    "name": "Reanimation Protocols",
+    "description": "Si tu armada es de NECRONS, al final de tu COMMAND PHASE, cada unidad de tu ejército con esta habilidad activa sus REANIMATION PROTOCOLS y reanima D3 WOUNDS. Cada vez que esto sucede: si la unidad contiene uno o más modelos con menos heridas que su número inicial, selecciona uno de esos modelos; ese modelo recupera una herida perdida. Si todos los modelos de la unidad tienen su número inicial de heridas, pero la unidad no está en su Fuerza Inicial, un modelo destruido regresa a la unidad con una herida restante."
+  },
+  "detachment_rules": [
+    {
+      "name": "Awakened Dynasty",
+      "description": "COMMAND PROTOCOLS: Mientras un modelo NECRONS CHARACTER esté liderando (LEADING) esta unidad, cada vez que un modelo de esta unidad realice un ataque, añade 1 a la HIT roll.",
+      "stratagems": [
+        {
+          "name": "PROTOCOL OF THE ETERNAL REVENANT",
+          "subname": "Awakened Dynasty – Epic Deed Stratagem",
+          "cost": "1CP",
+          "when": "Cualquier PHASE.",
+          "target": "Un modelo NECRONS INFANTRY CHARACTER de tu ejército que acabe de ser DESTROYED. Puedes usar esta STRATAGEM incluso aunque el modelo haya sido destruido.",
+          "effect": "Al final de la PHASE, vuelve a desplegar (SET UP) tu modelo en el campo de batalla lo más cerca posible de donde fue DESTROYED y no dentro de ENGAGEMENT RANGE de ninguna unidad enemiga, con la mitad de sus WOUNDS iniciales.",
+          "restrictions": "Cada modelo solo puede ser objetivo de esta STRATAGEM una vez por batalla."
+        },
+        {
+          "name": "PROTOCOL OF THE UNDYING LEGIONS",
+          "subname": "Awakened Dynasty – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya resuelto sus ataques.",
+          "target": "Una unidad NECRONS de tu ejército a la que le hayan DESTROYED uno o más modelos como resultado de los ataques de la unidad atacante.",
+          "effect": "Tu unidad activa sus REANIMATION PROTOCOLS y reanima D3 WOUNDS (o D3+1 WOUNDS si un NECRONS CHARACTER está liderando la unidad)."
+        },
+        {
+          "name": "PROTOCOL OF THE HUNGRY VOID",
+          "subname": "Awakened Dynasty – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "FIGHT PHASE.",
+          "target": "Una unidad NECRONS de tu ejército que no haya sido seleccionada para combatir esta PHASE.",
+          "effect": "Hasta el final de la PHASE, añade 1 a la característica de STRENGTH de las armas cuerpo a cuerpo (MELEE) equipadas por modelos en tu unidad. Además, si un NECRONS CHARACTER lidera la unidad, mejora el ARMOUR PENETRATION (AP) de esas armas en 1."
+        },
+        {
+          "name": "PROTOCOL OF THE SUDDEN STORM",
+          "subname": "Awakened Dynasty – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Tu MOVEMENT PHASE.",
+          "target": "Una unidad NECRONS de tu ejército.",
+          "effect": "Hasta el final del turno, las armas de rango (RANGED) equipadas por modelos en tu unidad tienen la habilidad [ASSAULT]. Además, si un NECRONS CHARACTER lidera la unidad, hasta el final de la PHASE, puedes repetir (RE-ROLL) las ADVANCE ROLLS hechas para tu unidad."
+        },
+        {
+          "name": "PROTOCOL OF THE CONQUERING TYRANT",
+          "subname": "Awakened Dynasty – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE.",
+          "target": "Una unidad NECRONS de tu ejército que no haya sido seleccionada para disparar esta PHASE.",
+          "effect": "Hasta el final de la PHASE, cada vez que un modelo en tu unidad ataque a un objetivo dentro de la mitad de su rango (HALF RANGE), repite (RE-ROLL) las HIT ROLLS de 1. Si un NECRONS CHARACTER lidera la unidad, puedes repetir (RE-ROLL) la HIT ROLL completa en su lugar."
+        },
+        {
+          "name": "PROTOCOL OF THE VENGEFUL STARS",
+          "subname": "Awakened Dynasty – Strategic Ploy Stratagem",
+          "cost": "2CP",
+          "when": "SHOOTING PHASE de tu oponente, justo después de que una unidad enemiga destruya (DESTROYS) una unidad NECRONS de tu ejército.",
+          "target": "Una unidad NECRONS CHARACTER de tu ejército que estuviera a menos de 6\" de esa unidad NECRONS cuando fue DESTROYED.",
+          "effect": "Después de que la unidad atacante haya resuelto sus ataques, tu unidad puede disparar (SHOOT) como si fuera tu SHOOTING PHASE, pero debe apuntar solo a esa unidad enemiga, y solo si es un objetivo elegible."
+        }
+      ]
+    },
+    {
+      "name": "Annihilation Legion",
+      "description": "ANNIHILATION PROTOCOL: Cada vez que una unidad DESTROYER CULT o FLAYED ONES de tu ejército declare una CHARGE, puedes RE-ROLL la CHARGE ROLL. Si uno o más objetivos de esa carga están BELOW HALF-STRENGTH, añade 1 a la CHARGE ROLL también. Además, cada vez que una unidad DESTROYER CULT realice un ataque RANGED al objetivo elegible más cercano, añade 1 a la característica de ARMOUR PENETRATION (AP).",
+      "stratagems": [
+        {
+          "name": "MASKS OF DEATH",
+          "subname": "Annihilation Legion – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Una unidad DESTROYER CULT o FLAYED ONES de tu ejército que haya sido seleccionada como objetivo de uno o más de los ataques de la unidad atacante.",
+          "effect": "Hasta el final de la PHASE, cada vez que un ataque apunte a tu unidad, resta 1 de la HIT ROLL."
+        },
+        {
+          "name": "THE SPOOR OF FRAILTY",
+          "subname": "Annihilation Legion – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE o FIGHT PHASE.",
+          "target": "Una unidad DESTROYER CULT o FLAYED ONES de tu ejército que no haya sido seleccionada para disparar o combatir esta PHASE.",
+          "effect": "Hasta el final de la PHASE, cada vez que un modelo de tu unidad realice un ataque contra una unidad BELOW STARTING STRENGTH, añade 1 a la HIT ROLL. Si el objetivo está BELOW HALF-STRENGTH, añade 1 a la WOUND ROLL también."
+        },
+        {
+          "name": "MURDEROUS REANIMATION",
+          "subname": "Annihilation Legion – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "FIGHT PHASE.",
+          "target": "Una unidad DESTROYER CULT o FLAYED ONES de tu ejército que acabe de DESTRORYED una unidad enemiga, o acabe de causar que una unidad enemiga que no estaba BELOW HALF-STRENGTH pase a estarlo.",
+          "effect": "Se activan los REANIMATION PROTOCOLS de tu unidad."
+        },
+        {
+          "name": "PITILESS HUNTERS",
+          "subname": "Annihilation Legion – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "FIGHT PHASE.",
+          "target": "Una unidad DESTROYER CULT o FLAYED ONES de tu ejército que no haya sido seleccionada para combatir esta PHASE.",
+          "effect": "Hasta el final de la PHASE, cada vez que un modelo de tu unidad realice un movimiento de PILE-IN o CONSOLIDATION, puede moverse hasta 6\" en lugar de 3\"."
+        },
+        {
+          "name": "BLOOD-FUELLED CRUELTY",
+          "subname": "Annihilation Legion – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "MOVEMENT PHASE de tu oponente, justo después de que una unidad enemiga termine un movimiento de FALL BACK.",
+          "target": "Una unidad DESTROYER CULT o FLAYED ONES de tu ejército que comenzó la PHASE dentro de ENGAGEMENT RANGE de esa unidad enemiga.",
+          "effect": "Tira un D6: con un 2-5, esa unidad enemiga sufre D3 MORTAL WOUNDS; con un 6, sufre 3 MORTAL WOUNDS. Tu unidad puede entonces realizar un NORMAL MOVE, pero debe terminarlo lo más cerca posible de esa unidad enemiga."
+        },
+        {
+          "name": "INSANITY’S IRE",
+          "subname": "Annihilation Legion – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE de tu oponente, justo después de que una unidad enemiga haya disparado.",
+          "target": "Una unidad DESTROYER CULT o FLAYED ONES de tu ejército a la que le hayan DESTROYED uno o más modelos por los ataques de la unidad atacante.",
+          "effect": "Tu unidad puede realizar un NORMAL MOVE, pero debe terminarlo lo más cerca posible de esa unidad enemiga."
+        }
+      ]
+    },
+    {
+      "name": "Canoptek Court",
+      "description": "POWER MATRIX: Ciertas áreas del campo de batalla están dentro de tu POWER MATRIX: 1. Tu DEPLOYMENT ZONE siempre lo está. 2. Al inicio de CUALQUIER PHASE, si controlas al menos la mitad de los OBJECTIVE MARKERS en NO MAN’S LAND, esta área entra en tu POWER MATRIX hasta el final de la PHASE. 3. Al inicio de CUALQUIER PHASE, si controlas la mitad de los OBJECTIVE MARKERS en la DEPLOYMENT ZONE enemiga, esta entra en tu POWER MATRIX hasta el final de la PHASE. EFECTO: Cada vez que un modelo CRYPTEK o CANOPTEK de tu ejército ataque, RE-ROLL HIT ROLLS de 1. Si la unidad está WHOLLY WITHIN tu POWER MATRIX, puedes RE-ROLL la HIT ROLL completa.",
+      "stratagems": [
+        {
+          "name": "CURSE OF THE CRYPTEK",
+          "subname": "Canoptek Court – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya disparado o combatido.",
+          "target": "Un modelo CRYPTEK de tu ejército que haya sido DESTROYED por uno de los ataques de la unidad atacante. Puedes usar esta STRATAGEM aunque el modelo haya sido destruido.",
+          "effect": "Hasta el final de la batalla, cada vez que un modelo CANOPTEK aliado realice un ataque contra la unidad atacante, añade 1 a la HIT ROLL y añade 1 a la WOUND ROLL."
+        },
+        {
+          "name": "CYNOSURE OF ERADICATION",
+          "subname": "Canoptek Court – Battle Tactic Stratagem",
+          "cost": "2CP",
+          "when": "Al inicio de tu SHOOTING PHASE o al inicio de la FIGHT PHASE.",
+          "target": "Una unidad CRYPTEK o CANOPTEK de tu ejército que esté WHOLLY WITHIN tu POWER MATRIX.",
+          "effect": "Hasta el final de la PHASE, las armas equipadas por modelos CRYPTEK o CANOPTEK en tu unidad tienen la habilidad [DEVASTATING WOUNDS]."
+        },
+        {
+          "name": "SOLAR PULSE",
+          "subname": "Canoptek Court – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Inicio de tu SHOOTING PHASE.",
+          "target": "Un modelo CRYPTEK de tu ejército.",
+          "effect": "Selecciona un OBJECTIVE MARKER a menos de 18\" de tu modelo CRYPTEK. Hasta el final de la PHASE, las armas equipadas por modelos NECRONS aliados tienen la habilidad [IGNORES COVER] mientras apunten a unidades dentro del rango de ese OBJECTIVE MARKER."
+        },
+        {
+          "name": "REACTIVE SUBROUTINES",
+          "subname": "Canoptek Court – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "MOVEMENT PHASE de tu oponente, justo después de que una unidad enemiga termine un NORMAL, ADVANCE o FALL BACK MOVE.",
+          "target": "Una unidad CANOPTEK de tu ejército que esté a menos de 9\" de esa unidad enemiga.",
+          "effect": "Tu unidad puede realizar un NORMAL MOVE de hasta 6\"."
+        },
+        {
+          "name": "COUNTERTEMPORAL SHIFT",
+          "subname": "Canoptek Court – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Una unidad CANOPTEK de tu ejército que haya sido seleccionada como objetivo de uno o más ataques de la unidad atacante.",
+          "effect": "Hasta el final de la PHASE, tu unidad solo puede ser seleccionada como objetivo de un RANGED ATTACK si el modelo atacante está a menos de 18\"."
+        },
+        {
+          "name": "SUBOPTIMAL FACADE",
+          "subname": "Canoptek Court – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "CHARGE PHASE de tu oponente, justo después de que una unidad enemiga haya declarado una CHARGE.",
+          "target": "Una unidad CANOPTEK de tu ejército que haya sido seleccionada como objetivo de esa carga y esté WHOLLY WITHIN tu POWER MATRIX.",
+          "effect": "Se activan los REANIMATION PROTOCOLS de tu unidad."
+        }
+      ]
+    },
+    {
+      "name": "Obeisance Phalanx",
+      "description": "WORTHY FOES: En tu COMMAND PHASE, selecciona una unidad enemiga. Hasta el inicio de tu próxima COMMAND PHASE, cada vez que una unidad NOBLE, LYCHGUARD o TRIARCH de tu ejército realice un ataque contra esa unidad, añade 1 a la WOUND ROLL.",
+      "stratagems": [
+        {
+          "name": "YOUR TIME IS NIGH",
+          "subname": "Obeisance Phalanx – Epic Deed Stratagem",
+          "cost": "1CP",
+          "when": "Cualquier PHASE, justo después de que el WARLORD de tu oponente sea DESTROYED.",
+          "target": "Tu NECRONS WARLORD.",
+          "effect": "Hasta el final de la batalla, cada vez que una unidad enemiga realice un test de BATTLE-SHOCK o LEADERSHIP, resta 1 del resultado."
+        },
+        {
+          "name": "ENSLAVED ARTIFICE",
+          "subname": "Obeisance Phalanx – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE o FIGHT PHASE.",
+          "target": "Una unidad NECRONS de tu ejército (excluyendo unidades TITANIC) que no haya sido seleccionada para disparar o combatir esta PHASE.",
+          "effect": "Hasta el final de la PHASE, cada vez que un modelo de tu unidad realice un ataque, un HIT ROLL de 5+ no modificado se considera un CRITICAL HIT."
+        },
+        {
+          "name": "NANOASSEMBLY PROTOCOLS",
+          "subname": "Obeisance Phalanx – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Una unidad NECRONS VEHICLE de tu ejército que haya sido seleccionada como objetivo de uno o más ataques de la unidad atacante.",
+          "effect": "Hasta el final de la PHASE, cada vez que un ataque sea asignado a un modelo de tu unidad, resta 1 de la característica de DAMAGE de ese ataque."
+        },
+        {
+          "name": "SENTINELS OF ETERNITY",
+          "subname": "Obeisance Phalanx – Epic Deed Stratagem",
+          "cost": "1CP",
+          "when": "FIGHT PHASE, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Una unidad LYCHGUARD o TRIARCH PRAETORIANS de tu ejército que haya sido seleccionada como objetivo de uno o más ataques de la unidad atacante.",
+          "effect": "Hasta el final de la PHASE, cada vez que un modelo de tu unidad sea DESTROYED, si ese modelo no ha combatido esta PHASE, tira un D6: con un 4+, no lo retires del juego. El modelo destruido puede combatir después de que la unidad atacante termine de realizar sus ataques, y luego es retirado del juego."
+        },
+        {
+          "name": "SUFFER NO RIVAL",
+          "subname": "Obeisance Phalanx – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "FIGHT PHASE.",
+          "target": "Una unidad LYCHGUARD o TRIARCH de tu ejército que no haya sido seleccionada para combatir esta PHASE.",
+          "effect": "Hasta el final de la PHASE, las armas cuerpo a cuerpo (MELEE) equipadas por modelos en tu unidad tienen la habilidad [PRECISION]."
+        },
+        {
+          "name": "TERRITORIAL OBSESSION",
+          "subname": "Obeisance Phalanx – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Tu COMMAND PHASE.",
+          "target": "Una unidad LYCHGUARD o TRIARCH de tu ejército.",
+          "effect": "Hasta el inicio de tu próxima COMMAND PHASE, añade 1 a la característica de OBJECTIVE CONTROL (OC) de los modelos de tu unidad. Si tu unidad tiene la keyword VEHICLE, añade 3 a la característica de OBJECTIVE CONTROL en su lugar."
+        }
+      ]
+    },
+    {
+      "name": "Hypercrypt Legion",
+      "description": "En el final de tu OPONENT's TURN, puedes seleccionar varias unidades NECRONS de tu ejército (excluyendo las unidades que se encuentren dentro del ENGAGEMENT RANGE- de una o más unidades enemigas). El número máximo de unidades que puedes seleccionar depende del tamaño de la batalla, como se indica a continuación: Incursion: Hasta 1 UNIT Strike Force: Hasta 2 UNITS. Onslaunght: Hasta 3 UNITS.Una vez realizadas las selecciones, retira las unidades del campo de batalla y ponlas en tus reservas.",
+      "stratagems": [
+        {
+          "name": "HYPERPHASIC RECALL",
+          "subname": "Hypercrypt Legion – Strategic Ploy Stratagem",
+          "cost": "2CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya disparado o combatido.",
+          "target": "Una unidad NECRONS INFANTRY de tu ejército a la que le hayan DESTROYED uno o más modelos como resultado de los ataques de la unidad atacante, y un modelo MONOLITH aliado.",
+          "effect": "Retira tu unidad INFANTRY del campo de batalla y vuelve a desplegarla (SET UP) en cualquier lugar del campo de batalla que esté WHOLLY WITHIN 6\" de tu modelo MONOLITH y no dentro de ENGAGEMENT RANGE de una o más unidades enemigas."
+        },
+        {
+          "name": "COSMIC PRECISION",
+          "subname": "Hypercrypt Legion – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Tu MOVEMENT PHASE.",
+          "target": "Una unidad NECRONS de tu ejército (excluyendo unidades MONSTER) que esté llegando usando las habilidades DEEP STRIKE o HYPERPHASING esta fase.",
+          "effect": "Tu unidad puede ser SET UP en cualquier lugar del campo de batalla que esté a más de 6\" horizontalmente de cualquier modelo enemigo.",
+          "restrictions": "Una unidad seleccionada con esta STRATAGEM no es elegible para DECLARE A CHARGE en el mismo turno."
+        },
+        {
+          "name": "QUANTUM DEFLECTION",
+          "subname": "Hypercrypt Legion – Wargear Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Una unidad NECRONS VEHICLE de tu ejército que haya sido seleccionada como objetivo de uno o más de los ataques de la unidad atacante.",
+          "effect": "Hasta el final de la fase, los modelos de tu unidad tienen una 4+ INVULNERABLE SAVE."
+        },
+        {
+          "name": "DIMENSIONAL CORRIDOR",
+          "subname": "Hypercrypt Legion – Strategic Ploy Stratagem",
+          "cost": "2CP",
+          "when": "Tu CHARGE PHASE.",
+          "target": "Una unidad NECRONS de tu ejército que haya sido SET UP en el campo de batalla este turno usando la habilidad ETERNITY GATE de un modelo MONOLITH que inició el turno en el campo de batalla.",
+          "effect": "Tu unidad es ELIGIBLE TO CHARGE esta fase."
+        },
+        {
+          "name": "REANIMATION CRYPTS",
+          "subname": "Hypercrypt Legion – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Tu COMMAND PHASE.",
+          "target": "Tu NECRONS WARLORD.",
+          "effect": "Por cada una de tus unidades NECRONS en RESERVES, los REANIMATION PROTOCOLS de esa unidad en RESERVES se activan."
+        },
+        {
+          "name": "ENTROPIC DAMPING",
+          "subname": "Hypercrypt Legion – Wargear Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Un modelo TITANIC aliado de tu ejército que haya sido seleccionado como objetivo de uno o más de los ataques de la unidad atacante y esté a menos de 18\" de la unidad atacante.",
+          "effect": "Hasta el final de la fase, las armas equipadas por modelos en la unidad atacante tienen la habilidad [HAZARDOUS]."
+        }
+      ]
+    },
+    {
+      "name": "Starshatter Arsenal",
+      "description": "RELENTLESS ONSLAUGHT: Cada vez que un modelo NECRONS (excluyendo modelos MONSTER) de tu ejército realice un ataque contra una unidad dentro del rango de uno o más OBJECTIVE MARKERS, añade 1 a la HIT ROLL. Además, las armas RANGED equipadas por modelos NECRONS VEHICLE y NECRONS MOUNTED (excluyendo modelos TITANIC) de tu ejército tienen la habilidad [ASSAULT].",
+      "stratagems": [
+        {
+          "name": "MERCILESS RECLAMATION",
+          "subname": "Starshatter Arsenal – Battle Tactic Stratagem",
+          "cost": "2CP",
+          "when": "Tu SHOOTING PHASE o la FIGHT PHASE.",
+          "target": "Una unidad NECRONS (excluyendo unidades MONSTER y TITANIC) de tu ejército que no haya sido seleccionada para disparar o combatir esta PHASE.",
+          "effect": "Hasta el final de la PHASE, cada vez que un modelo de tu unidad realice un ataque, si el objetivo de ese ataque está dentro del rango de uno o más OBJECTIVE MARKERS, añade 1 a la WOUND ROLL."
+        },
+        {
+          "name": "UNYIELDING FORMS",
+          "subname": "Starshatter Arsenal – Battle Tactic Stratagem",
+          "cost": "2CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Una unidad NECRONS VEHICLE o NECRONS MOUNTED (excluyendo unidades TITANIC) de tu ejército que haya sido seleccionada como objetivo de uno o más ataques de la unidad atacante.",
+          "effect": "Hasta el final de la PHASE, cada vez que un ataque apunte a un modelo de tu unidad, si la característica de STRENGTH de ese ataque es mayor que la característica de TOUGHNESS de tu unidad, resta 1 de la WOUND ROLL."
+        },
+        {
+          "name": "CHRONOSHIFT",
+          "subname": "Starshatter Arsenal – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Tu MOVEMENT PHASE.",
+          "target": "Una unidad NECRONS VEHICLE o NECRONS MOUNTED (excluyendo unidades TITANIC) de tu ejército que no haya sido seleccionada para moverse esta PHASE.",
+          "effect": "Hasta el final de la PHASE, si tu unidad realiza un ADVANCE, no lances la ADVANCE ROLL. En su lugar, hasta el final de la PHASE, añade 6\" a la característica de MOVE de los modelos de tu unidad."
+        },
+        {
+          "name": "DIMENSIONAL TUNNEL",
+          "subname": "Starshatter Arsenal – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Tu MOVEMENT PHASE.",
+          "target": "Una unidad NECRONS VEHICLE o NECRONS MOUNTED (excluyendo unidades TITANIC) de tu ejército.",
+          "effect": "Hasta el final de la PHASE, los modelos de tu unidad pueden moverse horizontalmente a través de modelos y elementos de escenografía (TERRAIN FEATURES)."
+        },
+        {
+          "name": "ENDLESS SERVITUDE",
+          "subname": "Starshatter Arsenal – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Al final de tu FIGHT PHASE.",
+          "target": "Una unidad NECRONS (excluyendo unidades MONSTER y TITANIC) de tu ejército que esté dentro del rango de uno o más OBJECTIVE MARKERS que controles.",
+          "effect": "Se activan los REANIMATION PROTOCOLS de tu unidad."
+        },
+        {
+          "name": "REACTIVE REPOSITION",
+          "subname": "Starshatter Arsenal – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE de tu oponente, justo después de que una unidad enemiga haya disparado.",
+          "target": "Una unidad NECRONS de tu ejército (excluyendo unidades MONSTER y TITANIC) que haya sido el objetivo de uno o más ataques de la unidad atacante.",
+          "effect": "Tu unidad puede realizar un NORMAL MOVE de hasta D6\"."
+        }
+      ]
+    },
+    {
+      "name": "Cryptek Conclave",
+      "description": "TECHNOSORCEROUS AUGMENTATIONS: Las armas RANGED equipadas por modelos CRYPTEK de tu ejército tienen la habilidad [ASSAULT]. En tu SHOOTING PHASE, cada vez que una unidad CRYPTEK de tu ejército sea seleccionada para disparar, selecciona una de las siguientes habilidades: [ANTI-INFANTRY 3+], [ANTI-MOUNTED 4+], [ASSAULT], [HEAVY] o [IGNORES COVER]. Hasta el final de la PHASE, las armas RANGED de los modelos de esa unidad tienen dicha habilidad.",
+      "stratagems": [
+        {
+          "name": "MOLECULAR TARGETING",
+          "subname": "Cryptek Conclave – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE o la FIGHT PHASE.",
+          "target": "Una unidad NECRONS de tu ejército que no haya sido seleccionada para disparar o combatir esta PHASE.",
+          "effect": "Hasta el final de la PHASE, cada vez que un modelo de tu unidad realice un ataque, puedes ignorar cualquier o todos los modificadores a: la característica de BALLISTIC SKILL o WEAPON SKILL; y la HIT ROLL. Si tu unidad tiene la keyword CRYPTEK, también puedes ignorar modificadores a la WOUND ROLL."
+        },
+        {
+          "name": "MICROSCARAB SWARM",
+          "subname": "Cryptek Conclave – Wargear Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Una unidad CRYPTEK INFANTRY de tu ejército que haya sido seleccionada como objetivo de uno o más ataques de la unidad atacante.",
+          "effect": "Si tu unidad tiene la keyword NECRON WARRIORS, hasta el final de la PHASE, los modelos de tu unidad tienen una 5+ INVULNERABLE SAVE. Si tu unidad tiene la keyword IMMORTALS, tienen una 4+ INVULNERABLE SAVE."
+        },
+        {
+          "name": "ANIMUS CURSE",
+          "subname": "Cryptek Conclave – Wargear Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya disparado o combatido.",
+          "target": "Un modelo CRYPTEK de tu ejército que haya sido DESTROYED por uno de los ataques de la unidad atacante. Puedes usar esta STRATAGEM aunque el modelo haya sido destruido.",
+          "effect": "Hasta el final de la batalla, cada vez que un modelo NECRONS aliado realice un ataque contra la unidad atacante, puedes RE-ROLL la HIT ROLL."
+        },
+        {
+          "name": "SYNERGISTIC EMPOWERMENT",
+          "subname": "Cryptek Conclave – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Inicio de tu SHOOTING PHASE.",
+          "target": "Una unidad CRYPTEK de tu ejército.",
+          "effect": "Selecciona un modelo NECRONS aliado (excluyendo MONSTERS y VEHICLES) a menos de 12\" de un modelo CRYPTEK de tu unidad. Hasta el final de la PHASE, ese modelo aliado gana la keyword CRYPTEK."
+        },
+        {
+          "name": "UNTAPPED POWER",
+          "subname": "Cryptek Conclave – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE.",
+          "target": "Una unidad CRYPTEK de tu ejército que no haya sido seleccionada para disparar esta PHASE.",
+          "effect": "Hasta el final de la PHASE, cada vez que tu unidad sea seleccionada para disparar, al elegir una habilidad para la Detachment Rule TECHNOSORCEROUS AUGMENTATIONS, puedes seleccionar una habilidad adicional de las disponibles."
+        },
+        {
+          "name": "POTENTIALITY SYPHON",
+          "subname": "Cryptek Conclave – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "COMMAND PHASE de tu oponente.",
+          "target": "Una unidad NECRONS de tu ejército dentro del rango de uno o más OBJECTIVE MARKERS.",
+          "effect": "Se activan los REANIMATION PROTOCOLS de tu unidad. Si es una unidad CRYPTEK, reanima 1 WOUND adicional."
+        }
+      ]
+    },
+    {
+      "name": "Cursed Legion",
+      "description": "COLD FERVOUR: Añade 2 a la característica de STRENGTH de las armas equipadas por modelos DESTROYER CULT de tu ejército. La primera vez en cada turno que una unidad DESTROYER CULT de tu ejército destruya una unidad o cause que esté BELOW HALF-STRENGTH, después de resolver sus ataques, añade 2 a la STRENGTH de las armas equipadas por unidades NECRONS aliadas (excluyendo DESTROYER CULT, MONSTER y TITANIC) hasta el final del turno.",
+      "stratagems": [
+        {
+          "name": "METHODICAL MURDER",
+          "subname": "Cursed Legion – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE o la FIGHT PHASE.",
+          "target": "Una unidad NECRONS (excluyendo MONSTERS y VEHICLES) de tu ejército que no haya sido seleccionada para disparar o combatir esta PHASE.",
+          "effect": "Hasta el final de la PHASE, las armas equipadas por modelos en tu unidad tienen la habilidad [SUSTAINED HITS 1]."
+        },
+        {
+          "name": "IMAGE OF DEATH",
+          "subname": "Cursed Legion – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "SHOOTING PHASE o FIGHT PHASE de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Una unidad DESTROYER CULT de tu ejército que haya sido seleccionada como objetivo de uno o más ataques de la unidad atacante.",
+          "effect": "Hasta el final de la PHASE, cada vez que un ataque apunte a tu unidad, resta 1 de la HIT ROLL."
+        },
+        {
+          "name": "MORTIS PROTOCOLS",
+          "subname": "Cursed Legion – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE o la FIGHT PHASE, justo después de la primera vez que una unidad DESTROYER CULT de tu ejército destruya (DESTROYS) una unidad enemiga este turno.",
+          "target": "Una unidad NECRONS aliada (excluyendo MONSTERS y VEHICLES) a menos de 9\" de esa unidad DESTROYER CULT.",
+          "effect": "Se activan los REANIMATION PROTOCOLS de la unidad aliada."
+        },
+        {
+          "name": "DRIVEN TO BUTCHERY",
+          "subname": "Cursed Legion – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE o tu CHARGE PHASE.",
+          "target": "Una unidad DESTROYER CULT de tu ejército.",
+          "effect": "Hasta el final del turno, tu unidad es elegible para disparar (SHOOT) y declarar una carga (DECLARE A CHARGE) en un turno en el que haya avanzado (ADVANCED).",
+          "restrictions": "Solo puedes usar esta STRATAGEM una vez por turno."
+        },
+        {
+          "name": "SPREADING MADNESS",
+          "subname": "Cursed Legion – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "Tu CHARGE PHASE.",
+          "target": "Una unidad NECRONS (excluyendo MONSTERS y VEHICLES) de tu ejército que no haya declarado una carga (DECLARED A CHARGE) esta PHASE.",
+          "effect": "Hasta el final de la PHASE, cada vez que tu unidad declare una carga, si uno o más objetivos de esa carga están dentro de ENGAGEMENT RANGE de una o más unidades aliadas, añade 2 a la CHARGE ROLL."
+        },
+        {
+          "name": "UNNATURAL AGGRESSION",
+          "subname": "Cursed Legion – Strategic Ploy Stratagem",
+          "cost": "2CP",
+          "when": "Al final de la CHARGE PHASE de tu oponente.",
+          "target": "Una unidad NECRONS (excluyendo MONSTERS y VEHICLES) de tu ejército que esté a menos de 6\" de una o más unidades enemigas y sea elegible para declarar carga.",
+          "effect": "Tu unidad declara una carga (DECLARE A CHARGE) que solo apunte a una o más de esas unidades enemigas y se resuelve. Nota: incluso si tiene éxito, la unidad no recibe bonificadores por carga (CHARGE BONUS) este turno."
+        }
+      ]
+    },
+    {
+      "name": "Pantheon of Woe",
+      "description": "COSMIC DISTORTION: Las unidades NECRONS MONSTER de tu ejército tienen la siguiente habilidad: DISTORTION FIELDS (AURA): Mientras una unidad enemiga esté a menos de 6\" de esta unidad, se considera UNRAVELLING. Cada vez que un ataque apunte a una unidad UNRAVELLING, mejora la característica de ARMOUR PENETRATION (AP) de ese ataque en 1. Al inicio de cada PHASE, cada unidad NECRONS MONSTER puede sufrir 3 MORTAL WOUNDS; si lo hace, el rango de su AURA aumenta a 9\" hasta el final de la PHASE.",
+      "stratagems": [
+        {
+          "name": "DISHARMONISATION CASCADE",
+          "subname": "Pantheon of Woe – Epic Deed Stratagem",
+          "cost": "1CP",
+          "when": "Cualquier PHASE, justo después de que un modelo NECRONS MONSTER de tu ejército sea DESTROYED, antes de realizar su tirada de DEADLY DEMISE.",
+          "target": "Ese modelo NECRONS MONSTER. Puedes usar esta STRATAGEM aunque el modelo haya sido destruido.",
+          "effect": "Hasta el final de la PHASE, la habilidad DEADLY DEMISE de tu modelo inflige MORTAL WOUNDS con un resultado de 3+ en un D6, en lugar de 6."
+        },
+        {
+          "name": "MOLECULAR EROSION",
+          "subname": "Pantheon of Woe – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "COMMAND PHASE.",
+          "target": "Una unidad NECRONS MONSTER de tu ejército.",
+          "effect": "Selecciona una unidad enemiga UNRAVELLING que sea VISIBLE para tu unidad. Esa unidad enemiga debe realizar un test de BATTLE-SHOCK restando 1 del resultado. Si falla, sufre D3+1 MORTAL WOUNDS.",
+          "restrictions": "Solo puedes usar esta STRATAGEM una vez por BATTLE ROUND."
+        },
+        {
+          "name": "MASS TRANSMOGRIFICATION",
+          "subname": "Pantheon of Woe – Epic Deed Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE o la FIGHT PHASE, justo después de que una unidad NECRONS MONSTER de tu ejército destruya una unidad enemiga.",
+          "target": "Una unidad NECRONS aliada (excluyendo MONSTERS) a menos de 6\" de esa unidad MONSTER.",
+          "effect": "Si la unidad enemiga estaba UNRAVELLING al inicio de la PHASE, se activan los REANIMATION PROTOCOLS de tu unidad aliada.",
+          "restrictions": "Solo puedes usar esta STRATAGEM una vez por turno."
+        },
+        {
+          "name": "ENTROPHASIC AURA TARGETING",
+          "subname": "Pantheon of Woe – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "Tu SHOOTING PHASE o la FIGHT PHASE.",
+          "target": "Una unidad NECRONS (excluyendo MONSTERS) de tu ejército que no haya sido seleccionada para disparar o combatir esta PHASE.",
+          "effect": "Hasta el final de la PHASE, cada vez que un modelo de tu unidad ataque a una unidad enemiga, RE-ROLL HIT ROLLS de 1. Si el objetivo está UNRAVELLING, RE-ROLL WOUND ROLLS de 1 también."
+        },
+        {
+          "name": "CHRONODISTORTION",
+          "subname": "Pantheon of Woe – Battle Tactic Stratagem",
+          "cost": "1CP",
+          "when": "FIGHT PHASE, justo después de que una unidad enemiga haya seleccionado sus objetivos (TARGETS).",
+          "target": "Una unidad NECRONS de tu ejército seleccionada como objetivo de uno o más ataques de la unidad atacante.",
+          "effect": "Hasta el final de la PHASE, cada vez que un modelo de tu unidad sea DESTROYED, si no ha combatido, tira un D6 (añadiendo 1 si el atacante está UNRAVELLING): con un 4+, no lo retires; puede combatir después de que el atacante termine y luego se retira."
+        },
+        {
+          "name": "PHASE MELDING",
+          "subname": "Pantheon of Woe – Strategic Ploy Stratagem",
+          "cost": "1CP",
+          "when": "MOVEMENT PHASE de tu oponente, cuando una unidad enemiga UNRAVELLING es seleccionada para realizar un FALL BACK.",
+          "target": "Una unidad NECRONS de tu ejército que esté a menos de ENGAGEMENT RANGE de esa unidad enemiga.",
+          "effect": "Cuando esa unidad enemiga realice el FALL BACK, todos sus modelos deben realizar un test de DESPERATE ESCAPE. Si la unidad está BATTLE-SHOCKED, resta 1 de cada test."
+        }
+      ]
+    }
+  ]
+}
